@@ -1085,6 +1085,9 @@ header nav ul li:hover::after {
 .pontos-sobre img {
     height: 350px;
 }
+.lista-sobre{
+    overflow: hidden;
+}
 
 .lista-sobre ul {
     display: flex;
@@ -1314,14 +1317,8 @@ footer {
         height: 250px;
     }
 
-    .bolhas-bb  {
+    .bolhas-bb,.bolhas-b,.bolhas-bbb,.bolhas-sobre-extra  {
        display: none;
-    }
-    .bolhas-sobre-extra{
-        display: none;
-    }
-    .bolhas-b{
-        display: none;
     }
      footer {
         justify-content: center;
@@ -1399,7 +1396,7 @@ footer {
     display: none;
   }
    .eclyra {
-        height: 79vh;
+        height: auto;
         padding-top: 100px;
         padding-bottom: 120px;
         gap: 10px;
@@ -1429,7 +1426,7 @@ footer {
     }
     .conheca {
     flex-direction: column;
-    height: 104vh;
+    height: auto;
   }
   .conheca-esquerda, .conheca-direita {
     width: 100%;
@@ -1699,6 +1696,9 @@ footer {
   #menu-toggle:checked + .menu + .mobile-menu {
     display: flex;
     animation: fade .3s ease;
+  }
+  .celular-lilas{
+    display: none;
   }
 }
 
