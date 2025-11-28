@@ -37,7 +37,6 @@ header {
   display: none;
 }
 
-
 .mobile-menu {
   display: none;
   position: absolute;
@@ -1319,6 +1318,7 @@ footer {
 
     .bolhas-bb,.bolhas-b,.bolhas-bbb,.bolhas-sobre-extra  {
        display: none;
+
     }
      footer {
         justify-content: center;
@@ -1692,7 +1692,6 @@ footer {
     border: none;
   }
 
-  /* Mostrar menu quando o checkbox estiver marcado */
   #menu-toggle:checked + .menu + .mobile-menu {
     display: flex;
     animation: fade .3s ease;
